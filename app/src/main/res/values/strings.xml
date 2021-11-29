@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">My Aplication DdI</string>
+    <string name="nombre" translatable="false">Name</string>
+    <string name="apellidos" translatable="false">Surnames</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="direccion" translatable="false">Direction</string>
+    <string name="hombre" translatable="false">Men</string>
+    <string name="mujer" translatable="false">Woman</string>
+    <string name="no" translatable="false">I prefer not to say</string>
+    <string name="nom_apellidos" translatable="false">Name and Surnames</string>
+    <string name="em_dir" translatable="false">Email and Direction</string>
+    <string name="sexo" translatable="false">Say your gender</string>
+    <string name="estudios" translatable="false">Mark your Studies</string>
+    <string name="borrar" translatable="false">Delete</string>
+    <string name="enviar" translatable="false">Send</string>
+    <string name="respuesta" translatable="false">Submitted Form</string>
+</resources>

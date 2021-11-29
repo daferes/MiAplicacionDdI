@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">Mi Aplicacion DdI</string>
+    <string name="nombre" translatable="false">Nombre</string>
+    <string name="apellidos" translatable="false">Apellidos</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="direccion" translatable="false">Direccion</string>
+    <string name="hombre" translatable="false">Hombre</string>
+    <string name="mujer" translatable="false">Mujer</string>
+    <string name="no" translatable="false">Prefiero no decirlo</string>
+    <string name="nom_apellidos" translatable="false">Nombre y Apellidos</string>
+    <string name="em_dir" translatable="false">Email y Dirección</string>
+    <string name="sexo" translatable="false">Diga su Sexo</string>
+    <string name="estudios" translatable="false">Marque sus Estudios</string>
+    <string name="borrar" translatable="false">Borrar</string>
+    <string name="enviar" translatable="false">Enviar</string>
+    <string name="respuesta" translatable="false">Formulario Enviado</string>
+</resources>

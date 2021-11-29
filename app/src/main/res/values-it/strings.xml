@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mia Aplicazione DdI</string>
+    <string name="nombre">Nome</string>
+    <string name="apellidos">Cognomi</string>
+    <string name="email">E-mail</string>
+    <string name="direccion">Indirizzo</string>
+    <string name="hombre">Uomo</string>
+    <string name="mujer">Donna</string>
+    <string name="no">Preferisco non dirlo</string>
+    <string name="nom_apellidos">Nome e Cognome</string>
+    <string name="em_dir">E-mail e Indirizzo</string>
+    <string name="sexo">Dì il tuo Genere</string>
+    <string name="estudios">Controlla i tuoi Studi</string>
+    <string name="borrar">Elimina</string>
+    <string name="enviar">Spedire</string>
+    <string name="respuesta">Modulo Inviato</string>
+</resources>
