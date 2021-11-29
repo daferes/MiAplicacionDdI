@@ -13,5 +13,6 @@
     <string name="estudios" translatable="false">Marque sus Estudios</string>
     <string name="borrar" translatable="false">Borrar</string>
     <string name="enviar" translatable="false">Enviar</string>
-    <string name="respuesta" translatable="false">Formulario Enviado</string>
+    <string name="enviado" translatable="false">Formulario Enviado</string>
+    <string name="borrado" translatable="false">Formulario Eliminado Correctamente</string>
 </resources>

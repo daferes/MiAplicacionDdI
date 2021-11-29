@@ -13,5 +13,6 @@
     <string name="estudios">Controlla i tuoi Studi</string>
     <string name="borrar">Elimina</string>
     <string name="enviar">Spedire</string>
-    <string name="respuesta">Modulo Inviato</string>
+    <string name="enviado">Modulo Inviato</string>
+    <string name="borrado">Modulo Eliminato Correttamente</string>
 </resources>

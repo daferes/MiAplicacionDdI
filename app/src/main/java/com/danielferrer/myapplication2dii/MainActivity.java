@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -49,13 +50,15 @@ public class MainActivity extends AppCompatActivity {
                 cbESO.setChecked(false);
                 cbFPGM.setChecked(false);
                 cbFPGS.setChecked(false);
+
+                Toast.makeText(MainActivity.this, R.string.borrado, Toast.LENGTH_SHORT).show();
             }
         });
 
         bEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, R.string.respuesta, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, R.string.enviado, Toast.LENGTH_SHORT).show();
             }
         });
 

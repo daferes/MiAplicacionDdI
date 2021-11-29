@@ -13,5 +13,6 @@
     <string name="estudios" translatable="false">Mark your Studies</string>
     <string name="borrar" translatable="false">Delete</string>
     <string name="enviar" translatable="false">Send</string>
-    <string name="respuesta" translatable="false">Submitted Form</string>
+    <string name="enviado" translatable="false">Submitted Form</string>
+    <string name="borrado" translatable="false">Form Deleted Correctly</string>
 </resources>

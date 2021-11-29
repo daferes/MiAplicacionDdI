@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nom_apellidos"
-        android:textColor="#FF0000"
+        android:textColor="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/etNombre"
         app:layout_constraintEnd_toStartOf="@+id/glv"
         app:layout_constraintHorizontal_bias="0.526"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="68dp"
         android:text="@string/em_dir"
-        android:textColor="#F44336"
+        android:textColor="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/etEmail"
         app:layout_constraintEnd_toStartOf="@+id/glv"
         app:layout_constraintStart_toStartOf="parent" />
@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sexo"
-        android:textColor="#4CAF50"
+        android:textColor="@color/green"
         app:layout_constraintBottom_toTopOf="@+id/rgOpciones"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/glv"
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:text="@string/estudios"
-        android:textColor="#4CAF50"
+        android:textColor="@color/green"
         app:layout_constraintBottom_toTopOf="@+id/cbESO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.456"
@@ -77,7 +77,7 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/cbFPGM"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/glv" />
 
     <CheckBox
@@ -89,7 +89,7 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/cbFPGS"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/glv" />
 
     <CheckBox
@@ -101,13 +101,14 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/glh"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintHorizontal_bias="0.015"
         app:layout_constraintStart_toStartOf="@+id/glv" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bBorrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/yellow"
         android:text="@string/borrar"
         android:textColor="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -115,16 +116,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/glh" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/purple_700"
         android:text="@string/enviar"
+        android:textColor="@color/green"
+        android:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/glv"
-        app:layout_constraintTop_toTopOf="@+id/glh"
-        app:layout_constraintVertical_bias="0.502" />
+        app:layout_constraintTop_toTopOf="@+id/glh" />
 
     <EditText
         android:id="@+id/etNombre"
